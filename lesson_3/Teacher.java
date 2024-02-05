@@ -7,6 +7,8 @@ public class Teacher extends User {
     public Teacher(String firstName, String secondName) {
         super(firstName, secondName);
     }
+    public Teacher(String string, String string2, String string3, String string4) {
+    }
     // Getters and setters
     public Long getTeacherId() {
         return teacherId;

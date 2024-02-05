@@ -4,6 +4,8 @@ public class TeacherController implements UserController<Teacher>{
 
     private final TeacherService teacherService = new TeacherService();
     private final TeacherView teacherView = new TeacherView();
+    public TeacherController(TeacherService teacherService2, TeacherView teacherView2) {
+    }
     /**
      * @param surname
      * @param firstname
@@ -24,4 +26,10 @@ public class TeacherController implements UserController<Teacher>{
      */
     public void printTeachers(){
         teacherView.sendOnConsole(teacherService.getAll());
+    }
+    public void create(Teacher teacher) {
+    }
+    public void printConsole() {
+    }
+    public void edit(int i, String string, String string2) {
     }}
