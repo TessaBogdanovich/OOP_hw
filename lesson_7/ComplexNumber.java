@@ -1,5 +1,8 @@
 public class ComplexNumder {
     private double material;
+    /**
+     *
+     */
     private double imaginary;
 
     /**

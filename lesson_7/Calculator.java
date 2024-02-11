@@ -1,4 +1,4 @@
-public interface iCalculator {
+public interface Calculator {
 
     /**
      * сложение
